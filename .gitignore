@@ -1,0 +1,59 @@
+# 编译输出文件夹
+bin/
+obj/
+
+# Visual Studio 生成的用户特定文件
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vs/
+*.vscode/launch.json
+*.vscode/tasks.json
+*-Setup.exe
+*-Setup.zip
+
+# 调试相关文件
+*.pdb
+*.pgc
+*.pgd
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.vshost.exe
+*.vshost.exe.manifest
+*.vshost.exe.config
+
+# NuGet 相关
+packages/
+*.nupkg
+!*.nuget.props
+!*.nuget.targets
+project.assets.json
+.nuget/
+NuGet.Config
+
+# 测试相关
+TestResults/
+*.coverage
+
+# 发布输出
+publish/
+dist/
+
+# 操作系统生成文件
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# 代码分析工具文件
+*.CodeAnalysisLog.xml
+*.StyleCopCache
+
+# Resharper 配置（如果团队不共享）
+_ReSharper*/
+*.resharper
+*.sdf
+*.opensdf
+*.VC.db
